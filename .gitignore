@@ -2,6 +2,7 @@
 build/
 .vscode/
 *.log
+*.mk.old
 .project
 .cproject
 .settings/*
