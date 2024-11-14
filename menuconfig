@@ -1,0 +1,10 @@
+#!/bin/bash
+#Script to build buildroot configuration
+#Author: Siddhant Jajoo
+
+source shared.sh
+
+set -e
+cd `dirname $0`
+
+make -C buildroot ${MK_BR2_EXT} ${MK_DL} menuconfig
